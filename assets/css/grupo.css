@@ -1,7 +1,7 @@
 .grupo {
     max-width: var(--max-width-block);
     margin: 0 auto;
-    height: 40vh;
+    height: 50vh;
     border-bottom: 2px solid rgb(201, 201, 111);
     margin-bottom: 100px;
 }

@@ -1,7 +1,7 @@
 .love {
     max-width: var(--max-width-block);
     margin: 0 auto;
-    height: 50vh;
+    height: 55vh;
     border-bottom: 2px solid rgb(44, 100, 223);
 }
 
