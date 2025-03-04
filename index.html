@@ -5,66 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Grupo KiraKara</title>
+    <title>KiraKara</title>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="banner__container">
-            <img src="./assets/img/banner.jpg" class="banner_imagem">
-        </div>
-        <nav class="cabecalho__container">
-            <a href="./index.html" class="cabecalho__link"><img src="./assets/img/logo_kira_kara.jpg"
-                    class="cabecalho__logo" alt="Logo da KiraKara"></a>
-            <a href="#" class="cabecalho__item__solo"><span class="cabecalho__item__texto">Canais</span></a>
-            <a href="#lovekira" class="cabecalho__item"><span class="cabecalho__item__texto">Projeto LoveKira</span></a>
-            <a href="#sobre" class="cabecalho__item"><span class="cabecalho__item__texto">Sobre Nós</span></a>
-        </nav>
-    </header>
-    <main class="sobre">
-        <section class="sobre__container">
-            <img src="./assets/img/sobre_kira.jpg" class="sobre__imagem">
-            <div class="sobre__container__item">
-                <h1 class="sobre_titulo" id="sobre">Grupo<br><b class="sobre__negrito">KiraKara</b></h1>
-                <p class="sobre__texto">Somos um Grupo independente de Vtubers com o objetivo de crescer e acolher a
-                    comunidade.</p>
-            </div>
-        </section>
-    </main>
-    <main class="lovekira">
-        <section class="lovekira__container" id="lovekira">
-            <h2 class="lovekira__titulo">Projeto<img src="./assets/img/coracao.svg" alt="Imagem Coração"
-                    class="lovekira__coracao"><b class="lovekira__negrito">Love Kira</b></h2>
-            <img src="./assets/img/lovekira_abertura.png" alt="Tela de Inicio do Jogo" class="lovekira__imagem">
-            <p class="lovekira__texto">Love Kira é um jogo inspirado nas Vtubers do grupo indie Kira Kara. Você é um
-                estudante da Kara Academy. uma academia reconhecida por formar muitos talentos do mundo
-                todo.<br><br>Graças ao seu esforço, você conseguiu uma bolsa para lá e está super animado por ter se
-                destacado com a maior nota.<br><br>Sua animação vai por água a baixo quando você se atrasa logo no
-                primeiro dia de aula, o fazendo conhecer suas novas colegas de uma forma bem indesejada. Seu objetivo é
-                conquistar o coração delas enquanto passa por muitas confusões no decorrer do ano.</p>
-            <iframe src="https://www.youtube.com/embed/oQIjLdSVT2Y" title="Love 💛 Kira - Visual Novel Demo Trailer"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="lovekira__video"></iframe>
-            <a href="https://www.catarse.me/LoveKira?ref=ctrse_explore_pgsearch#about" class="lovekira__apoiar"
-                alt="Botão Apoiar">
-                <p class="lovekira__apoiar__texto">Apoiar</p>
-            </a>
-        </section>
-    </main>
-    <footer class="rodape">
-        <section class="rodape_item">
-            <img src="./assets/img/logo_kira_kara.jpg" class="rodape__imagem" alt="Logo da KiraKara">
-            <a href="https://www.youtube.com/@KiraKaramelProject" class="rodape__link"><img
-                    src="./assets/img/youtube-logo.svg" alt="Logo Youtube" class="rodape__social">
-                <p class="rodape__link__texto">Youtube</p>
-            </a>
-            <a href="https://x.com/KiraKaraProject" class="rodape__link"><img src="./assets/img/x-twitter-logo.svg"
-                    alt="Logo Youtube" class="rodape__social">
-                <p class="rodape__link__texto">Twitter</p>
-            </a>
-        </section>
-    </footer>
+
+    <div class="banner"></div>
+    <nav class="nav-bar">
+        <ul class="nav-items">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#loja" class="nav-link">Store</a></li>
+            <li class="nav-item"><a href="#love" class="nav-link">Love Kira</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="grupo">
+        <ul class="grupo__container">
+            <li>
+                <h1 class="grupo__titulo">Conheça a Kira Kara</h1>
+                <hr class="hr">
+                <p class="gupro__texto">A Kira Kara é um grupo Vtuber indie brasileiro criado em 23 de fevereiro de
+                    2022, atualmente composto por cinco integrantes: <span class="gupro__texto-negrito">Sunny Seiki,
+                        Pamytube, Ynasshi, Yume Matsu, e Hanako Awing.</span></p>
+                <p class="gupro__texto">Com conteúdos divertidos e variados, buscamos expandir o universo Vtuber no
+                    Brasil e nos conectar com o público de forma autêntica e inovadora.</p>
+                <p class="gupro__texto">Em nossa trajetória, já realizamos diversos projetos marcantes e estamos sempre
+                    em busca de novas colaborações para continuar crescendo.</p>
+                <p class="gupro__texto">Confira também nossas redes sociais abaixo para saber mais.</p>
+                <hr class="hr">
+                <div class="grupo__botao">
+                    <a href="#"><img src="" class="grupo__imagem">@kirakaraproject</a>
+                    <a href="#"><img src="" class="grupo__imagem">@kirakaraproject</a>
+                    <a href="#"><img src="" class="grupo__imagem">@kirakara.bsky.social</a>
+                    <a href="#"><img src="" class="grupo__imagem">@kirakaraproject</a>
+                    <a href="#"><img src="" class="grupo__imagem">@kirakaraproject</a>
+                    <a href="#"><img src="" class="grupo__imagem">@kirakaramelproject</a>
+                </div>
+            </li>
+            <li>
+                <img src="./assets/img/kirakara.jpg" alt="Imagem da Kira Kara" class="grupo__logo">
+            </li>
+        </ul>
+    </section>
+
+    <section class="loja" id="loja">
+        <ul class="loja__lista">
+            <li class="lista__texto">
+                <h4 class="lista__titulo__pequeno">Explore nossa coleção de produtos…</h4>
+                <h2 class="lista__titulo__grande">Kira Kara Store
+                    <hr class="hr">
+                </h2>
+                <p class="lista__texto">Lançada em 06 de julho de 2024, nossa loja online oferece uma variedade
+                    exclusiva de produtos Kira Kara, incluindo dakimakuras, almofadas, cartelas de adesivos, chaveiros e
+                    muito mais.</p>
+                <p class="lista__texto">Além disso, trabalhamos com produtos sazonais e coleções exclusivas de tempo
+                    limitado, valorizando cada item e proporcionando uma experiência única aos nossos fãs e
+                    colecionadores.</p>
+                <a href="" class="link">Loja Online</a>
+            </li>
+            <hr class="hr2">
+            </hr>
+            <li class="container__imagem"><img src="./assets/img/loja.jpg" class="imagem"></li>
+        </ul>
+    </section>
+
+    <section class="love" id="love">
+        <ul class="love__container">
+            <li class="love__lista">
+                <h4 class="love__titulo__pequeno">Nosso Jogo Estilo Visual Novel</h4>
+                <h2 class="love__titulo__grande">Explore Nosso Jogo Love Kira
+                    <hr class="hr">
+                </h2>
+                <p class="love__texto">Love Kira é um jogo inspirado nos Vtubers do grupo indie Kira Kara. Você é um
+                    estudante da Talent Academy Kara . Uma academia reconhecida por formar muitos talentos no mundo
+                    todo.</p>
+                <p class="love__texto">Graças ao seu esforço, você conseguiu uma bolsa para lá e está super animado por
+                    ter se destacado com nota maior.</p>
+                <p class="love__texto">Sua animação vai por água a baixo quando você se atrasa logo no primeiro dia de
+                    aula , o fazendo conhecer seus novos colegas de uma forma bem indesejada. Seu objetivo é conquistar
+                    o coração delas enquanto passa por muitas confusões no decorrer do ano.</p>
+                <hr class="hr">
+                <br><br>
+                <div class="container__botao">
+                    <a href="" class="love__botao">Conheça o Jogo</a>
+                    <a href="" class="love__botao">Trailer</a>
+                    <a href="" class="love__botao">Catarse</a>
+                </div>
+            </li>
+            <li class="love__lista">
+                <img src="./assets/img/lovekira.jpg" class="love__imagem">
+            </li>
+        </ul>
+    </section>
 </body>
 
 </html>

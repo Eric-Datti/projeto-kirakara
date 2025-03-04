@@ -1,0 +1,127 @@
+.grupo {
+    max-width: var(--max-width-block);
+    margin: 0 auto;
+    height: 40vh;
+    border-bottom: 2px solid rgb(201, 201, 111);
+    margin-bottom: 100px;
+}
+
+.grupo__container {
+    display: flex;
+    height: 800px;
+    justify-content: center;
+}
+
+.grupo__logo {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.grupo__titulo {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(82, 81, 81);
+    font-weight: 700;
+}
+
+.gupro__texto {
+    font-size: 1.5rem;
+    text-align: start;
+    margin: 1rem .5rem;
+    color: rgb(82, 81, 81);
+}
+
+.gupro__texto-negrito {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(82, 81, 81);
+}
+
+.grupo__container a {
+    padding-top: 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(168, 160, 160);
+    border: 1px solid black;
+    width: 40%;
+    height: 50px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.grupo__container a:hover {
+    border: 3px solid black;
+}
+
+.grupo__botao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 20px;
+}
+
+.grupo__container li {
+    list-style-type: none;
+}
+
+.hr {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    width: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .grupo {
+        margin: 0;
+        height: 100%;
+        border-bottom: 1px dashed yellow;
+    }
+
+    .grupo__botao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grupo__container a {
+        width: 70%;
+    }
+
+    .hr {
+        margin-left: 6rem;
+    }
+
+    .grupo__container {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .grupo__logo {
+        margin: 0;
+        width: 100%;
+    }
+
+    .gupro__texto {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .grupo__titulo {
+        font-size: 2.7rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .grupo {
+        margin: 0;
+        height: 100%;
+        border-bottom: 1px dashed yellow;
+    }
+
+}
