@@ -1,0 +1,40 @@
+@import url("./assets/css/reset.css");
+@import url("./assets/css/cabecalho.css");
+@import url("./assets/css/banner.css");
+@import url("./assets/css/sobre.css");
+@import url("./assets/css/lovekira.css");
+@import url("./assets/css/rodape.css");
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+:root {
+    --font-principal: "Poppins";
+    --font-secundaria: "Dongle";
+    --cor-fundo-nav-2: #4d4232;
+    --cor-fundo-nav-2-hover: #332c22;
+    --cor-fundo-nav: #FFEFD8;
+    --cor-fundo-nav-hover: #fde4c2;
+    --preto: #000000;
+    --preto-claro: #2e2d2d;
+    --branco: #ffffff;
+    --cor-botao-hover: #c2a378;
+    --cor-botao: #d8b583;
+    --rodape: #8f795a;
+    --azul: #002F52;
+    --cinza: #b9b9b9;
+    --cinza-claro: #dfdfdf;
+    --font-rodape: 1rem;
+    --font-tamanho-principal: 1.6rem;
+    --font-tamanho-titulo: 1.4rem;
+    --font-tamanho-nav: 0.8rem;
+    --font-grande: 2rem;
+    --font-peso-principal: 500;
+    --font-peso-titulo: 700;
+}
+
+body {
+    font-family: var(--font-principal);
+    background-color: var(--branco);
+    font-size: var(--font-tamanho-principal);
+    font-weight: var( --font-peso-principal);
+}
